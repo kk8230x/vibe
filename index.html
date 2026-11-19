@@ -143,14 +143,14 @@
   <div class="wrap">
     <div class="head-row">
       <div>
-        <div class="no">04</div>
-        <div class="title">Portfolio</div>
+        <span class="no">04</span>
+        <h2 class="title">Portfolio</h2>
       </div>
       <div class="filter">
-        <div class="filter-btn on" onclick="filterProjects('all', this)">All</div>
-        <div class="filter-btn" onclick="filterProjects('web', this)">Web</div>
-        <div class="filter-btn" onclick="filterProjects('mobile', this)">Mobile</div>
-        <div class="filter-btn" onclick="filterProjects('branding', this)">Branding</div>
+        <button type="button" class="filter-btn on" onclick="filterProjects('all', this)">All</button>
+        <button type="button" class="filter-btn" onclick="filterProjects('web', this)">Web</button>
+        <button type="button" class="filter-btn" onclick="filterProjects('mobile', this)">Mobile</button>
+        <button type="button" class="filter-btn" onclick="filterProjects('branding', this)">Branding</button>
       </div>
     </div>
 
@@ -208,22 +208,22 @@
 <div class="sec blog" id="blog">
   <div class="wrap blog-grid">
     <div class="blog-text">
-      <div class="no">05</div>
-      <div class="title">Blog</div>
-      <div class="muted">디자인과 개발 관련 글을 정리했습니다.</div>
+      <span class="no">05</span>
+      <h2 class="title">Blog</h2>
+      <p class="muted">디자인과 개발 관련 글을 정리했습니다.</p>
       <div class="arrows">
-        <div class="round on" onclick="moveBlog(-1)">←</div>
-        <div class="round" onclick="moveBlog(1)">→</div>
+        <button type="button" class="round on" onclick="moveBlog(-1)">←</button>
+        <button type="button" class="round" onclick="moveBlog(1)">→</button>
       </div>
     </div>
-    <div class="blog-track" id="blog-track">
-      <div class="post-card"><a href="#"><img src="img/visual.jpg"><div class="post-body"><div class="post-date">2026. 10. 15</div><div class="post-title">첫 화면을 Claude Code로 만든 과정</div><div class="post-text">스케치를 요청문으로 바꾸고 화면을 만든 과정을 정리했습니다.</div></div></a></div>
-      <div class="post-card"><a href="#"><img src="img/project-shop.jpg"><div class="post-body"><div class="post-date">2026. 10. 08</div><div class="post-title">글자 대비를 4.5 : 1로 맞추는 이유</div><div class="post-text">읽기 쉬운 글자 색 기준과 확인 방법을 정리했습니다.</div></div></a></div>
-      <div class="post-card"><a href="#"><img src="img/project-gallery.jpg"><div class="post-body"><div class="post-date">2026. 09. 28</div><div class="post-title">벤치마킹은 구조를 배우는 일</div><div class="post-text">참고 사이트에서 가져올 것과 가져오지 않을 것을 정리했습니다.</div></div></a></div>
-      <div class="post-card"><a href="#"><img src="img/project-app.jpg"><div class="post-body"><div class="post-date">2026. 09. 20</div><div class="post-title">포트폴리오 주제를 정한 과정</div><div class="post-text">작업 방향을 정하는 데 쓴 기준을 정리했습니다.</div></div></a></div>
-      <div class="post-card"><a href="#"><img src="img/profile.jpg"><div class="post-body"><div class="post-date">2026. 09. 12</div><div class="post-title">색을 고를 때 쓰는 60:30:10 비율</div><div class="post-text">바탕, 보조, 포인트 색을 나누는 방법을 정리했습니다.</div></div></a></div>
-      <div class="post-card"><a href="#"><img src="img/project-shop.jpg"><div class="post-body"><div class="post-date">2026. 09. 05</div><div class="post-title">버튼 상태를 나누는 방법</div><div class="post-text">기본, 호버, 눌림, 포커스, 비활성 상태를 정리했습니다.</div></div></a></div>
-    </div>
+    <ul class="blog-track" id="blog-track">
+      <li class="post-card"><a href="#"><img src="img/visual.jpg" alt=""><div class="post-body"><span class="post-date">2026. 10. 15</span><h3 class="post-title">첫 화면을 Claude Code로 만든 과정</h3><p class="post-text">스케치를 요청문으로 바꾸고 화면을 만든 과정을 정리했습니다.</p></div></a></li>
+      <li class="post-card"><a href="#"><img src="img/project-shop.jpg" alt=""><div class="post-body"><span class="post-date">2026. 10. 08</span><h3 class="post-title">글자 대비를 4.5 : 1로 맞추는 이유</h3><p class="post-text">읽기 쉬운 글자 색 기준과 확인 방법을 정리했습니다.</p></div></a></li>
+      <li class="post-card"><a href="#"><img src="img/project-gallery.jpg" alt=""><div class="post-body"><span class="post-date">2026. 09. 28</span><h3 class="post-title">벤치마킹은 구조를 배우는 일</h3><p class="post-text">참고 사이트에서 가져올 것과 가져오지 않을 것을 정리했습니다.</p></div></a></li>
+      <li class="post-card"><a href="#"><img src="img/project-app.jpg" alt=""><div class="post-body"><span class="post-date">2026. 09. 20</span><h3 class="post-title">포트폴리오 주제를 정한 과정</h3><p class="post-text">작업 방향을 정하는 데 쓴 기준을 정리했습니다.</p></div></a></li>
+      <li class="post-card"><a href="#"><img src="img/profile.jpg" alt=""><div class="post-body"><span class="post-date">2026. 09. 12</span><h3 class="post-title">색을 고를 때 쓰는 60:30:10 비율</h3><p class="post-text">바탕, 보조, 포인트 색을 나누는 방법을 정리했습니다.</p></div></a></li>
+      <li class="post-card"><a href="#"><img src="img/project-shop.jpg" alt=""><div class="post-body"><span class="post-date">2026. 09. 05</span><h3 class="post-title">버튼 상태를 나누는 방법</h3><p class="post-text">기본, 호버, 눌림, 포커스, 비활성 상태를 정리했습니다.</p></div></a></li>
+    </ul>
   </div>
 </div>
 
